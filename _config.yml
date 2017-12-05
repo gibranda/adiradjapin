@@ -16,11 +16,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 
-markdown: kramdown
-  
+markdown: kramdown  
 permalink: pretty
 
 port: 8000
+
+exclude: ['layout_design.psd']
 
 sass:
   sass_dir: assets/css

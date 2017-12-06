@@ -21,8 +21,7 @@ permalink: pretty
 
 port: 8000
 
-exclude: ['layout_design.psd', 'layout_design.jpg']
+exclude: ['layout_design.psd', 'layout_price.psd', 'layout_design.jpg']
 
 sass:
   sass_dir: assets/css
-  # style: :nested

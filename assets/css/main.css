@@ -768,7 +768,6 @@ header {
   header .link-hero {
     display: inline-block;
     letter-spacing: 0.5;
-    padding: 10px 30px;
     margin-bottom: 50px; }
   header .social-links {
     display: flex;
@@ -849,7 +848,7 @@ header {
         cursor: pointer;
         position: absolute;
         top: -7px;
-        left: -60px; }
+        left: 14px; }
         .section-pricing .pricing-wrap .json-container .json-return path {
           fill: rgba(255, 255, 255, 0.5); }
         .section-pricing .pricing-wrap .json-container .json-return:hover path {
@@ -868,22 +867,43 @@ header {
           margin: 0 auto 30px; }
         .section-pricing .pricing-wrap .pricing-container label {
           display: inline-block;
-          margin-bottom: 10px; }
-      .section-pricing .pricing-wrap .json-container .json-return {
-        left: 14px; } }
+          margin-bottom: 10px; } }
 
-.btn-link, .btn-list {
-  color: #fff;
+.btn-more, .btn-link, .btn-list {
   text-align: center;
   font-size: 24px;
   font-weight: 700; }
 
+.btn-more {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  width: 100%;
+  text-transform: uppercase;
+  display: block;
+  padding: 10px 0; }
+
 .btn-link {
-  border: 1px solid #fff; }
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 30px; }
   .btn-link:hover {
     border: 1px solid #d82f36; }
 
+.btn-link-alt {
+  color: #fff;
+  background: #d82f36;
+  border: 1px solid #fff;
+  cursor: pointer;
+  padding: 5px 20px;
+  transition: 0.3s; }
+  .btn-link-alt:hover {
+    border: 1px solid #d82f36;
+    color: #d82f36;
+    background: #fff; }
+
 .btn-list {
+  color: #fff;
   border: 2px solid #fff;
   width: 300px;
   cursor: pointer;
@@ -892,3 +912,68 @@ header {
   .btn-list:hover {
     background: #fff;
     color: #d82f36; }
+
+table {
+  border: 1px solid #ccc;
+  background: #fff;
+  width: 100%;
+  margin: 0 auto 20px;
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+table tr {
+  border: 1px solid #ddd;
+  padding: 5px; }
+
+table th, table td {
+  padding: 10px;
+  text-align: center;
+  font-style: italic; }
+
+table th {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px; }
+  table th em {
+    display: block; }
+  table th span {
+    display: inline-block; }
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+    background: none; }
+
+  table thead {
+    display: none; }
+
+  table tr {
+    margin-bottom: 10px;
+    display: block;
+    background: #FFF;
+    border-bottom: 2px solid #ddd; }
+
+  table tr:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+  table td {
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    clear: left;
+    width: 100%;
+    text-align: right;
+    font-size: 13px;
+    border-bottom: 1px dotted #ccc; }
+
+  table td:last-child {
+    border-bottom: 0; }
+
+  table td:before {
+    content: attr(data-label);
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold; } }

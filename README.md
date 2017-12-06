@@ -5,7 +5,7 @@ New Frontend website [Adiradjapin](http://adiradjapin.com/) [COMING SOON]
 Website demo [Adiradjapin-demo](https://solvedia.github.io/adiradjapin/)
 
 ***
-..* **#Day-1** Add Header Section
+..* **#Day-1** Add Header Section  
 ..* **#Day-2** Add Pricing Section
 
 

@@ -785,16 +785,15 @@ header {
     header .top-menus {
       text-align: center; }
       header .top-menus .logo {
-        float: none; }
+        float: none;
+        display: inline-block; }
+      header .top-menus nav {
+        float: none;
+        display: none; }
     header h2 {
       padding-top: 80px; }
-    header .logo {
-      float: none;
-      display: inline-block;
-      margin: 20px auto; }
-    header nav {
-      float: none;
-      display: none; } }
+    header .tagline {
+      margin-bottom: 10px; } }
 
 .section-pricing {
   background: #d82f36;

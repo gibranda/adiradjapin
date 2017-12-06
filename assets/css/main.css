@@ -708,6 +708,11 @@ a {
   a:hover, a:focus {
     color: #e88589; }
 
+.section-pricing h3 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
 header {
   color: #fff;
   background-color: lavender;
@@ -787,11 +792,89 @@ header {
       float: none;
       display: none; } }
 
-.btn-link {
+.section-pricing {
+  background: #d82f36;
+  padding: 50px 0;
+  overflow-x: hidden; }
+  .section-pricing h3 {
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center; }
+  .section-pricing .pricing-wrap {
+    width: 200%;
+    position: relative;
+    left: 0%;
+    transition: 800ms; }
+    .section-pricing .pricing-wrap.slideMode {
+      transform: translate(-50%); }
+    .section-pricing .pricing-wrap .json-unit, .section-pricing .pricing-wrap .pricing-unit {
+      float: left;
+      width: 50%; }
+    .section-pricing .pricing-wrap .pricing-container {
+      max-width: 960px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .section-pricing .pricing-wrap .pricing-container .maskot {
+        order: 2;
+        height: 200px;
+        width: 200px; }
+        .section-pricing .pricing-wrap .pricing-container .maskot path, .section-pricing .pricing-wrap .pricing-container .maskot polygon {
+          fill: #fff; }
+      .section-pricing .pricing-wrap .pricing-container [class^="list-"] strong {
+        text-transform: uppercase; }
+      .section-pricing .pricing-wrap .pricing-container [class^="list-"] span {
+        display: block;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 0.9;
+        font-style: italic; }
+      .section-pricing .pricing-wrap .pricing-container [class^="list-"].list-price {
+        order: 1; }
+      .section-pricing .pricing-wrap .pricing-container [class^="list-"].list-order {
+        order: 3; }
+    .section-pricing .pricing-wrap .json-container {
+      max-width: 960px;
+      padding: 0 15px;
+      position: relative;
+      display: none;
+      margin: 0 auto; }
+      .section-pricing .pricing-wrap .json-container .json-return {
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+        position: absolute;
+        top: -7px;
+        left: -60px; }
+        .section-pricing .pricing-wrap .json-container .json-return path {
+          fill: rgba(255, 255, 255, 0.5); }
+        .section-pricing .pricing-wrap .json-container .json-return:hover path {
+          fill: white; }
+      .section-pricing .pricing-wrap .json-container h3 {
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        font-weight: 300;
+        margin-bottom: 20px; }
+
+.btn-link, .btn-list {
   color: #fff;
-  padding: 10px 25px;
-  border: 1px solid #fff;
+  text-align: center;
   font-size: 24px;
   font-weight: 700; }
+
+.btn-link {
+  border: 1px solid #fff; }
   .btn-link:hover {
     border: 1px solid #d82f36; }
+
+.btn-list {
+  border: 2px solid #fff;
+  width: 300px;
+  cursor: pointer;
+  padding: 20px 0;
+  transition: 0.3s; }
+  .btn-list:hover {
+    background: #fff;
+    color: #d82f36; }

@@ -11,10 +11,6 @@ logo: "logo.svg"
 
 menus: 
   - {
-      name: home,
-      url: './'
-    }
-  - {
       name: pricing,
       url: '#pricing'
     }
@@ -39,4 +35,22 @@ socials:
   - {
       url: 'https://www.instagram.com/adiradjapin/',
       icon: instagram
+    }
+
+
+# Pricing Section
+# ----------------------------------------------
+
+lists:
+  - {
+      list: price,
+      name: Daftar Harga,
+      tag: 'Bahan Baku',
+      file: 'json/price.html'
+    }
+  - {
+      list: order,
+      name: Cara Pesan,
+      tag: '*Dapatkan harga khusus',
+      file: 'json/order.html'
     }

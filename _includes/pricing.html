@@ -1,1 +1,34 @@
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam inventore eius maxime, culpa cupiditate velit debitis dolorem sequi vero vitae, distinctio, adipisci commodi, dolorum doloribus assumenda voluptate! Officiis, incidunt, debitis.
+<section class="section-pricing">
+	
+	<h3 id="pricing">pricing</h3>
+
+	<div class="pricing-wrap">
+
+		<div class="pricing-unit">
+			<div class="pricing-container">			
+
+				<div class="maskot">{% include icons/adiradjapin.svg %}</div>
+				
+				{% for list in site.data.settings.lists %}
+				<label for="{{ list.name }}" class="list-{{ list.list }} btn-list" >
+					<div class="list-data" data-url="{{ list.file }}">
+						<strong>{{ list.name }}</strong> 
+						<span>{{ list.tag }}</span>
+					</div>
+				</label>
+				{% endfor %}
+
+			</div>
+		</div>
+		
+		<div class="json-unit">			
+			<div class="json-container">
+				<label class="json-return">{% include icons/icon-back.html %}</label>
+				<h3 class="json-title"></h3>
+				<div class="json-load"></div>
+			</div>
+		</div>
+
+	</div>
+
+</section>

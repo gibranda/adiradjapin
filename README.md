@@ -9,4 +9,5 @@ Website demo [Adiradjapin-demo](https://solvedia.github.io/adiradjapin/)
 **#Day-2** Add Pricing Section
 
 
-![adiradjapin_mockup](https://github.com/solvedia/adiradjapin/blob/master/layout_design.jpg)
+![adiradjapin_mockup](https://github.com/solvedia/adiradjapin/blob/master/preview/layout_design.jpg)
+![adiradjapin_mockup](https://github.com/solvedia/adiradjapin/blob/master/preview/section_pricing.jpg)

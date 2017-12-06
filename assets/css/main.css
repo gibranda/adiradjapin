@@ -782,8 +782,12 @@ header {
       header .social-links a:hover {
         transform: scale(1.2); }
   @media screen and (max-width: 520px) {
+    header .top-menus {
+      text-align: center; }
+      header .top-menus .logo {
+        float: none; }
     header h2 {
-      padding-top: 100px; }
+      padding-top: 80px; }
     header .logo {
       float: none;
       display: inline-block;
@@ -857,6 +861,17 @@ header {
         color: #fff;
         font-weight: 300;
         margin-bottom: 20px; }
+    @media screen and (max-width: 830px) {
+      .section-pricing .pricing-wrap .pricing-container {
+        display: block;
+        text-align: center; }
+        .section-pricing .pricing-wrap .pricing-container .maskot {
+          margin: 0 auto 30px; }
+        .section-pricing .pricing-wrap .pricing-container label {
+          display: inline-block;
+          margin-bottom: 10px; }
+      .section-pricing .pricing-wrap .json-container .json-return {
+        left: 14px; } }
 
 .btn-link, .btn-list {
   color: #fff;

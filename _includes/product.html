@@ -1,0 +1,24 @@
+<section class="section-product">
+	
+	<h3 id="product">Product</h3>
+
+	<div class="product-wrap">
+		
+		{% for produk in site.data.settings.products %}
+		<div class="product-unit">
+			<div class="thumb-unit">
+				<div class="thumb-img">
+					<img src="assets/img/product/{{ produk.folder }}/thumb.jpg" alt="{{ produk.name }}">
+				</div>
+				<div class="thumb-overlay"></div>
+			</div>
+			<div class="thumb-meta">
+				<h4>{{ produk.name }}</h4>
+				<small>{{ produk.tag }}</small>
+			</div>
+		</div>
+		{% endfor %}
+
+	</div>
+
+</section>

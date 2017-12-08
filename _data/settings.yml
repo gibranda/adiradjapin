@@ -18,6 +18,10 @@ menus:
       name: product,
       url: '#product'
     }
+  - {
+      name: order,
+      url: '#order'
+    }
 
 
 # Social Links
@@ -54,3 +58,24 @@ lists:
       tag: '*Dapatkan harga khusus',
       file: 'json/order.html'
     }
+
+
+# Product Section
+# ----------------------------------------------
+
+products:
+  - {
+    name: Bahan pin,
+    tag: Bahan Baku,
+    folder: pin
+  }
+  - {
+    name: Bahan Mug,
+    tag: Bahan Baku,
+    folder: mug
+  }
+  - {
+    name: Bahan Ganci,
+    tag: Bahan Baku,
+    folder: ganci
+  }

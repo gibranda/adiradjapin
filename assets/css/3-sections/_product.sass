@@ -1,0 +1,86 @@
+.section-product	
+	padding: 100px 0 
+	
+	h3 
+		@extend %small-bold
+		color: $accent
+		text-align: center
+		margin: 0 0 50px 0
+		
+	.product-wrap
+		max-width: 960px
+		margin: 0 auto
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+		
+		.product-unit
+			text-align: center
+			
+			.thumb-unit
+				width: 300px
+				height: 355px
+				cursor: pointer
+				+position(relative )
+				box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.42)
+									
+				.thumb-overlay
+					width: 300px
+					height: 355px			
+					+position(absolute, 0px null null null)
+					z-index: 2
+					box-shadow: inset 0px 0px 0px 30px rgba(255,255,255,0.5)
+											
+				&:hover
+					.thumb-overlay
+						@extend %animation
+						background: rgba(255, 255, 255, 0.5)
+						box-shadow: none
+				
+			.thumb-meta
+				display: flex
+				flex-direction: column-reverse		
+			
+				h4 
+					font:
+						weight: 300
+						size: 24px
+					text-transform: uppercase
+					margin: 0
+					line-height: 0.8
+				
+				small
+					color: #999	
+					font:
+						size: 14px
+						style: italic	
+					margin: 15px 0 5px 0
+				
+			
+			&:nth-child(even)
+				display: flex
+				flex-direction: column-reverse
+				
+				.thumb-meta
+					flex-direction: column
+					
+					small 
+						margin: 5px 0 15px 0
+						
+
+	@media screen and ( max-width: 930px )
+		.product-wrap
+			justify-content: center
+			align-items: center
+			
+			.product-unit
+				margin: 20px
+
+				&:nth-child(even)
+					flex-direction: column
+					
+					.thumb-meta
+						flex-direction: column-reverse
+						
+						small 
+							margin: 15px 0 5px 0

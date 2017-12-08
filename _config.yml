@@ -21,12 +21,8 @@ permalink: pretty
 
 port: 8000
 
-exclude: [
-  'layout_design.psd', 
-  'layout_price.psd', 
-  'preview/section-pricing.jpg',
-  'preview/layout_design.jpg'
-]
+exclude: [ 'preview' ]
 
 sass:
   sass_dir: assets/css
+  style: :compressed

@@ -21,7 +21,7 @@ permalink: pretty
 
 port: 8000
 
-exclude: [ 'preview' ]
+exclude: [ 'preview', 'README.md' ]
 
 sass:
   sass_dir: assets/css

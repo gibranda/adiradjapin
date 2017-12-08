@@ -5,9 +5,9 @@ New Frontend website [Adiradjapin](http://adiradjapin.com/) [COMING SOON]
 Website demo [Adiradjapin-demo](https://solvedia.github.io/adiradjapin/)
 
 ***
-**#Day-1** Add Header
-**#Day-2** Add Section Pricing 
-**#Day-2** Add Section Product
+**#Day-1** Add Header  
+**#Day-2** Add Section Pricing  
+**#Day-3** Add Section Product
 
 
 <p align="center">

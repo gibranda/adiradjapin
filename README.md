@@ -6,8 +6,9 @@ Website demo [Adiradjapin-demo](https://solvedia.github.io/adiradjapin/)
 
 ***
 **#Day-1** Add Header  
-**#Day-2** Add Section Pricing  
-**#Day-3** Add Section Product
+**#Day-2** Add Pricing Section  
+**#Day-3** Add Product Section  
+**#Day-4** Add Testimoni Section  
 
 
 <p align="center">
@@ -16,4 +17,6 @@ Website demo [Adiradjapin-demo](https://solvedia.github.io/adiradjapin/)
   <img width="700" src="https://github.com/solvedia/adiradjapin/blob/master/preview/section_pricing.jpg" alt="adiradjapin_mockup">
 
   <img width="700" src="https://github.com/solvedia/adiradjapin/blob/master/preview/section_product.jpg" alt="adiradjapin_mockup">
+
+  <img width="700" src="https://github.com/solvedia/adiradjapin/blob/master/preview/section_testimoni.jpg" alt="adiradjapin_mockup">
 </p>

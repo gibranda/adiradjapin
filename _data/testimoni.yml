@@ -1,0 +1,28 @@
+# Testimoni Section
+# ----------------------------------------------
+
+testimoni:
+  - {
+    avatar: 'adi.jpg',
+    name: 'Supriadi Winangun',
+    title: 'Owner Adiradjapin',
+    quote: '<p><strong>Kami adalah produsen souvenir dan merchandise, </strong> kami menawarkan harga yang terjangkau dengan kualitas terbaik. Kami memproduksi PIN dan gantungan kunci. Selain itu kami juga memproduksi MUG, Pakaian serta berbagai souvenir &amp; merchandise lainnya.</p>'
+  }
+  - {
+    avatar: 'boed.jpg',
+    name: 'Boed Winangun',
+    title: 'Creative Designer',
+    quote: '<p><strong>Otakku hanyalah penerima sinyal,</strong> di alam semesta ini ada sebuah pusat dimana "kita" memperoleh pengetahuan, kekuatan dan inspirsasi.</p>'
+  }
+  - {
+    avatar: 'omen.jpg',
+    name: 'Omen Brother',
+    title: 'Video Creator',
+    quote: '<p><strong>Lorem ipsum dolor sit amet, </strong> consectetur adipisicing elit. Ea, reiciendis, distinctio? A iure maiores rem, magnam, sint, eligendi officia molestiae sunt temporibus expedita recusandae. Culpa fugit officia corrupti officiis distinctio.</p>'
+  }
+  - {
+    avatar: 'hardi.jpg',
+    name: 'Hardi Brother',
+    title: 'Artist',
+    quote: '<p><strong>consectetur adipisicing elit.</strong> A iure maiores rem, magnam, sint, eligendi officia molestiae sunt temporibus expedita recusandae. Culpa fugit officia corrupti officiis distinctio.</p>'
+  }

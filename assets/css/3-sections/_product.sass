@@ -28,16 +28,14 @@
 				img 
 					width: 300px
 									
-				.thumb-overlay
-					width: 300px
-					height: 355px			
-					+position(absolute, 0px null null null)
+				.thumb-overlay			
+					+position(absolute, 0px 0px 0px 0px)
 					z-index: 2
 					box-shadow: inset 0px 0px 0px 30px rgba(255,255,255,0.5)
 											
 				&:hover
 					.thumb-overlay
-						@extend %animation
+						@extend %zoomIn
 						background: rgba(255, 255, 255, 0.5)
 						box-shadow: none
 				
@@ -78,7 +76,7 @@
 			align-items: center
 			
 			.product-unit
-				margin: 20px
+				margin: 20px 10px 0
 
 				&:nth-child(even)
 					flex-direction: column

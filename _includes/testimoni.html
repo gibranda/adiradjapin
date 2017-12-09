@@ -1,0 +1,40 @@
+<section class="section-testimoni">
+	
+	<h3 id="testimoni">Testimoni</h3>
+
+	<div class="testi-wrap">
+		
+		{% for testi in site.data.testimoni.testimoni %}
+		<div class="testi-unit {% if forloop.first %}active{% endif %}">
+			
+			<figure class="testi-avatar">
+				<img src="assets/img/testimoni/{{ testi.avatar }}" alt="{{ testi.name }}, pin">
+				<figcaption>
+					<strong class="name">{{ testi.name }}</strong>
+					<em class="title">{{ testi.title }}</em>
+				</figcaption>
+			</figure>
+
+			<div class="testi-content">
+				<div class="testi-quote-top">{% include icons/icon-quote.html %}</div>
+				<div class="testi-quote-bottom">{% include icons/icon-quote.html %}</div>
+				{{ testi.quote }}
+			</div>
+
+		</div>
+		{% endfor %}
+
+		<div class="testi-controls">
+			<div class="testi-control-next">{% include icons/icon-next.html %}</div>
+			<div class="testi-control-prev">{% include icons/icon-prev.html %}</div>
+		</div>
+
+		<div class="testi-buttons">
+			{% for testi in site.data.testimoni.testimoni %}
+			<span class="testi-button {% if forloop.first %}active{% endif %}"></span>
+			{% endfor %}
+		</div>
+
+	</div>
+
+</section>

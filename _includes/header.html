@@ -14,17 +14,19 @@
 
 	</div>
 
-	<h2>{{ site.title }}</h2>
-	<p class="tagline">{{ site.tagline }}</p>
+	<div class="header-wrap">
+		<h2>{{ site.title }}</h2>
+		<p class="tagline">{{ site.tagline }}</p>
 
-	<p class="desc">{{ site.description }}</p>
+		<p class="desc">{{ site.description }}</p>
 
-	<a href="./" class="link-hero btn-link">ORDER</a>
+		<a href="./" class="link-hero btn-link">ORDER</a>
 
-	<div class="social-links">
-		{% for social in site.data.settings.socials %}
-		<a href="{{ social.url }}" target="_blank" class="icon-{{ social.icon }}"></a>
-		{% endfor %}
+		<div class="social-links">
+			{% for social in site.data.settings.socials %}
+			<a href="{{ social.url }}" target="_blank" class="icon-{{ social.icon }}"></a>
+			{% endfor %}
+		</div>
 	</div>
 
 </header>

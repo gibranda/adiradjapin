@@ -1,0 +1,121 @@
+.section-testimoni	
+	padding: 100px 0
+	background: $bgColor
+	
+	h3 
+		@extend %small-bold
+		color: $accent
+		text-align: center
+		margin: 0 0 50px 0
+
+	.testi-wrap
+		max-width: 100%
+		margin: 0 auto
+		+position(relative)
+
+		.testi-unit 
+			margin: 0 auto 50px
+			// background: salmon
+			max-width: 740px
+			display: none
+			justify-content: space-between
+			
+			&.active
+				display: flex
+				@extend %bounceOut
+			
+			.testi-avatar
+				margin: 0
+				text-align: center
+				
+				img
+					border-radius: 50%
+					+size(100px)
+					margin: 10px 0 13px
+				
+				.name
+					display: block
+					font: 
+						size: 14px
+						weight: 300
+					text-transform: uppercase
+					line-height: 0.9
+					letter-spacing: 1px
+					
+				.title 
+					font:
+						size: 12px
+					color: #999
+					letter-spacing: 1px
+				
+			.testi-content
+				width: 75%
+				// background: navy
+				font:
+					size: 20px
+					weight: 300
+				line-height: 1.9
+				letter-spacing: 1px
+				+position(relative)
+
+				[class^="testi-quote-"]
+					+position(absolute)
+					+size(55px)
+					z-index: 1
+					opacity: 0.2
+					
+					path
+						fill: $accent
+
+					&.testi-quote-top
+						top: -20px
+						left: -7px
+						
+					&.testi-quote-bottom
+						bottom: -20px
+						right: -7px
+						transform: rotate(180deg)
+						
+			@media screen and ( max-width: 790px )
+				&.active
+					display: block
+					
+				.testi-content
+					margin: 0 auto
+					text-align: center
+						
+
+		.testi-controls
+			+position(absolute, 50% 0px null 0px)
+			
+			> div
+				+size(40px)
+				margin-top: -20px
+				cursor: pointer
+				
+				path
+					fill: $accent
+					
+			.testi-control-next
+				+position(absolute, 0px 10px null null)
+				
+			.testi-control-prev
+				+position(absolute, 0px null null 10px)
+				
+			@media screen and ( max-width: 960px )
+				display: none
+				
+
+		.testi-buttons
+			text-align: center
+
+			span
+				display: inline-block
+				+size(20px)
+				border: 3px solid $gray
+				border-radius: 50%
+				cursor: pointer
+				margin: 0 5px
+				
+				&.active
+					border-color: $accent

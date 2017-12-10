@@ -1,0 +1,51 @@
+.section-gallery
+	background:
+		color: $accent
+		image: linear-gradient(to bottom left, $accent, $accent-nd)	
+	padding: 100px 0
+	
+	h3 
+		@extend %small-bold
+		color: $white
+		margin-bottom: 50px
+		text-align: center
+		
+	.gallery-wrap 
+		margin: 0 auto
+		max-width: 960px
+		+clearfix()
+		
+		ul 
+			list-style: none
+			padding: 0
+			margin: 0
+			
+			li
+				float: left
+				width: (100%/3)
+				height: 135px
+				overflow: hidden
+				background: $white
+												
+				a 					
+					&.default 
+						background: 
+							image: url(../img/insta-promo.jpg)
+							size: cover
+							position: center center
+						display: block
+						+size(100%)
+
+					img 
+						width: 100%
+						transition: opacity .4s ease
+						
+					&:hover img
+						opacity: .7
+						
+		@media screen and (max-width: 675px)
+			ul 
+				padding: 10px
+				
+				li 
+					width: (100%/2)

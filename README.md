@@ -1,5 +1,4 @@
-# PSD to HTML
-New Frontend website [Adiradjapin](http://adiradjapin.com/) [COMING SOON]
+# PSD to HTML with (Jekyll, Sass, Photoshop, Sublime Text) 
 
 ### Update everyday until done
 Website demo [Adiradjapin-demo](https://solvedia.github.io/adiradjapin/)
@@ -10,6 +9,7 @@ Website demo [Adiradjapin-demo](https://solvedia.github.io/adiradjapin/)
 **#Day-3** Add Product Section  
 **#Day-4** Add Testimoni Section  
 **#Day-5** Add Gallery Section  
+**#Day-6** Add Footer  
 
 
 <p align="center">
@@ -22,4 +22,6 @@ Website demo [Adiradjapin-demo](https://solvedia.github.io/adiradjapin/)
   <img width="700" src="https://github.com/solvedia/adiradjapin/blob/master/preview/section_testimoni.jpg" alt="adiradjapin_mockup">
 
   <img width="700" src="https://github.com/solvedia/adiradjapin/blob/master/preview/section_gallery.jpg" alt="adiradjapin_mockup">
+
+  <img width="700" src="https://github.com/solvedia/adiradjapin/blob/master/preview/footer.jpg" alt="adiradjapin_mockup">
 </p>

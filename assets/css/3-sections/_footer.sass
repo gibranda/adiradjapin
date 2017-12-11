@@ -1,0 +1,140 @@
+footer	
+	background:
+		image: url(../img/#{$footer-path})
+		size: cover
+		position: center center
+	padding: 50px 0 30px
+	
+	@media screen and ( max-width:730px )
+		padding-right: 10px
+		padding-left: 10px
+
+	h3 
+		color: $white
+		text-align: center
+		margin: 0 0 100px 0
+		font:
+			size: 36px
+			weight: 700
+		text-transform: uppercase
+		
+		span 
+			font:
+				size: 24px
+				weight: 300
+			display: block
+			line-height: .8
+	
+	form 
+		max-width: 700px
+		margin: 0 auto 30px
+		
+		input, textarea
+			padding: 20px
+			box-sizing: border-box
+			width: 100%
+			opacity: .1
+			-webkit-appearance: none 
+			-moz-appearance: none 
+			appearance: none 
+			font-size: 16px
+			border: none
+		
+			&:focus
+				outline: none
+				opacity: .3
+			
+		textarea
+			height: 15em
+			resize: none
+			
+		[type="submit"]
+			background: $accent
+			color: $white
+			font:
+				size: 36px
+				weight: 700
+			text-transform: uppercase
+			box-sizing: border-box
+			width: 100%
+			padding: 10px
+			letter-spacing: 3px
+			opacity: 1
+			
+		label 
+			margin-bottom: 30px
+			display: block
+			
+			span 
+				display: block
+				font:
+					size: 20px
+					weight: 300
+				color: $white
+			
+		.contact-info-group
+
+			label 
+				float: left
+				width: 50%
+				box-sizing: border-box
+				
+				&:nth-child(1)
+					padding-right: 15px
+					
+				&:nth-child(2)
+					padding-left: 15px
+					
+		@media screen and ( max-width:730px )
+			.contact-info-group
+				label
+					float: none
+					width: 100%
+				
+					&:nth-child(1)
+						padding-right: 0px
+						
+					&:nth-child(2)
+						padding-left: 0px
+					
+	.footer-info
+		text-align: center
+		color: $white
+		margin-bottom: 80px
+		
+		h4 
+			font: 
+				size: 18px
+			color: $white
+			text-transform: uppercase
+			opacity: .3
+			margin: 0
+	
+	.footer-copyright
+		max-width: 960px
+		margin: 0 auto
+		padding: 30px 0 0
+		color: $white
+		
+		.copy
+			margin: 0
+		
+		.logo
+			float: right
+			height: 22px
+			width: 170px
+			background:
+				image: url(../img/#{$logo-path})
+				repeat: no-repeat
+	
+
+	@media screen and ( max-width:730px )
+		.footer-copyright
+			text-align: center
+			padding: 0
+			
+			.logo
+				float: none
+				margin: 0 auto
+
+		

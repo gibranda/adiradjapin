@@ -10,7 +10,7 @@ Website demo [Adiradjapin-demo](https://solvedia.github.io/adiradjapin/)
 **#Day-4** Add Testimoni Section  
 **#Day-5** Add Gallery Section  
 **#Day-6** Add Footer  
-**--DONE--**  
+**-- DONE --**  
 
 
 <p align="center">
